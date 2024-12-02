@@ -1,10 +1,37 @@
 body {
   background-color: #1a1a1a;
   color: white;
+  max-width: 600px;
+  font-family: "Buenard", monospace;
+
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.text {
+  font-size: 12px;
+  text-decoration: none;
+}
+
+img {
+  max-width: 95%;
+  max-height: 95%;
+}
+
+.text:hover {
+  box-shadow: inset 100px 0 0 100px #54b3d6;
 }
 
 a {
   color: white;
+  text-decoration: none; 
 }
+
 
 /* 🦊 Compléter les styles de votre teaser  */
